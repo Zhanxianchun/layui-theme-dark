@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
-  <title>layui-theme-dark</title>
+  <title>ICU败血症患者死亡风险预测辅助系统</title>
   <script>
     var VERSION='2.8.6';
   </script>
@@ -78,7 +78,7 @@
 <body>
   <div class="layui-layout layui-layout-admin">
     <div class="layui-header">
-      <div class="layui-logo layui-hide-xs layui-bg-black">dark demo</div>
+      <div class="layui-logo layui-hide-xs layui-bg-black">辅助系统</div>
       <!-- 头部区域（可配合layui 已有的水平导航） -->
       <ul class="layui-nav layui-layout-left">
         <!-- 移动端显示 -->
@@ -115,6 +115,23 @@
       <div class="layui-side-scroll">
         <!-- 左侧导航区域 -->
         <ul class="layui-nav layui-nav-tree" lay-shrink="all" lay-unselect lay-filter="nav-side" id="ws-nav-side">
+          <li class="layui-nav-item">
+            <a class="" href="javascript:;">权限管理</a>
+            <dl class="layui-nav-child">
+              <dd><a data-path="view/table-user" href="javascript:;">用户管理</a></dd>
+              <dd><a data-path="view/table-role" href="javascript:;">角色管理</a></dd>
+              <dd><a data-path="view/table-caidan" href="javascript:;">菜单管理</a></dd>
+            </dl>
+          </li>
+          <li class="layui-nav-item">
+            <a class="" href="javascript:;">患者管理</a>
+            <dl class="layui-nav-child">
+              <dd><a data-path="view/table-list" href="javascript:;">患者列表</a></dd>
+              <dd><a data-path="view/form-add" href="javascript:;">患者添加</a></dd>
+            </dl>
+          </li>
+          <li class="layui-nav-item"><a data-path="view/table-records" href="javascript:;">患者记录列表</a></li>
+          <li class="layui-nav-item"><a data-path="view/prediction" href="javascript:;">死亡风险预测</a></li>
           <li class="layui-nav-item">
             <a class="" href="javascript:;">基本元素</a>
             <dl class="layui-nav-child">
