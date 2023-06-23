@@ -1,0 +1,45 @@
+{
+  "code": 0
+  ,"msg": ""
+  ,"count": 6
+  ,"totalRow": {
+    "checkin": "777"
+  }
+  ,"data": [{
+    "id": "10001"
+    ,"username": "杜甫123"
+    ,"password": "123456"
+    ,"nick_name": "dufu"
+    ,"salt": "浙江杭州"
+    ,"is_deleted": 0
+    ,"gmt_create": "2016-10-14"
+    ,"gmt_modified": "2016-10-14"
+  }, {
+    "id": "10003"
+    ,"username": "杜甫123"
+    ,"password": "123456"
+    ,"nick_name": "dufu"
+    ,"salt": "浙江杭州"
+    ,"is_deleted": 0
+    ,"gmt_create": "2016-10-14"
+    ,"gmt_modified": "2016-10-14"
+  }, {
+    "id": "10004"
+    ,"username": "杜甫123"
+    ,"password": "123456"
+    ,"nick_name": "dufu"
+    ,"salt": "浙江杭州"
+    ,"is_deleted": 0
+    ,"gmt_create": "2016-10-14"
+    ,"gmt_modified": "2016-10-14"
+  }, {
+    "id": "10005"
+    ,"username": "杜甫123"
+    ,"password": "123456"
+    ,"nick_name": "dufu"
+    ,"salt": "浙江杭州"
+    ,"is_deleted": 0
+    ,"gmt_create": "2016-10-14"
+    ,"gmt_modified": "2016-10-14"
+  }]
+}  
