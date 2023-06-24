@@ -88,9 +88,12 @@
             //,size: 'lg'
             , toolbar: true
             , cols: [[
-                { field: 'id', hide: true }
+                { field: 'id', title:'用户id' }
                 , { field: 'username', title: '用户名' }
                 , { field: 'password', title: '密码' }
+                , { field: 'nick_name', title: '昵称' }
+                , { field: 'is_deleted', title: '注销用户' }
+                , { field: 'gmt_create', title: '创建时间'}
                 , { title: '操作', align: 'center', toolbar: '#barDemo' }
             ]]
         });

@@ -1,0 +1,59 @@
+{
+  "code": 0
+  ,"msg": ""
+  ,"count": 6
+  ,"totalRow": {
+    "checkin": "777"
+  }
+  ,"data": [{
+    "id": "10001"
+    ,"name": "杜甫123"
+    ,"shenfenzheng": "123456"
+    ,"sex": "dufu"
+    ,"birthdate": "1976-10-14"
+    ,"phone": 12345685241
+    ,"is_deleted":0
+    ,"gmt_create": "2016-10-14"
+    ,"gmt_modified": "2016-10-14"
+  }, {
+    "id": "10002"
+    ,"name": "杜甫123"
+    ,"shenfenzheng": "123456"
+    ,"sex": "dufu"
+    ,"birthdate": "1991-10-14"
+    ,"phone": 12345685241
+    ,"is_deleted":0
+    ,"gmt_create": "2016-10-14"
+    ,"gmt_modified": "2016-10-14"
+  }, {
+    "id": "10003"
+    ,"name": "杜甫123"
+    ,"shenfenzheng": "123456"
+    ,"sex": "dufu"
+    ,"birthdate": "2000-10-14"
+    ,"phone": 12345685241
+    ,"is_deleted":0
+    ,"gmt_create": "2016-10-14"
+    ,"gmt_modified": "2016-10-14"
+  }, {
+    "id": "10005"
+    ,"name": "杜甫123"
+    ,"shenfenzheng": "123456"
+    ,"sex": "dufu"
+    ,"birthdate": "1988-10-14"
+    ,"phone": 12345685241
+    ,"is_deleted":0
+    ,"gmt_create": "2016-10-14"
+    ,"gmt_modified": "2016-10-14"
+  }, {
+    "id": "10006"
+    ,"name": "杜甫123"
+    ,"shenfenzheng": "123456"
+    ,"sex": "dufu"
+    ,"birthdate": "1979-10-14"
+    ,"phone": 12345685241
+    ,"is_deleted":0
+    ,"gmt_create": "2016-10-14"
+    ,"gmt_modified": "2016-10-14"
+  }]
+}  
