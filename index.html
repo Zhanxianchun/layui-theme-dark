@@ -80,9 +80,62 @@
     <div class="layui-header">
       <div class="layui-logo layui-hide-xs layui-bg-black">GDCAM system</div>
       <!-- 头部区域（可配合layui 已有的水平导航） -->
-      <!-- <ul class="layui-nav layui-layout-left"> -->
-        <!-- 移动端显示 -->
-        <!-- <li class="layui-nav-item layui-show-xs-inline-block layui-hide-sm" lay-header-event="menuLeft">
+      <ul class="layui-nav layui-layout-left">
+        <li class="layui-nav-item layadmin-flexible" lay-unselect>
+          <a href="javascript:;" layadmin-event="flexible" title="侧边伸缩">
+            <i class="layui-icon layui-icon-shrink-right" id="LAY_app_flexible"></i>
+          </a>
+        </li>
+        <li class="layui-nav-item layui-hide-xs" lay-unselect>
+          <a href="http://www.baidu.com/" target="_blank" title="前台">
+            <i class="layui-icon layui-icon-website"></i>
+          </a>
+        </li>
+        <li class="layui-nav-item" lay-unselect>
+          <a href="javascript:;" layadmin-event="refresh" title="刷新">
+            <i class="layui-icon layui-icon-refresh-3"></i>
+          </a>
+        </li>
+      </ul>
+      <ul class="layui-nav layui-layout-right" lay-filter="layui-layout-right">
+        <li class="layui-nav-item layui-hide-xs" lay-unselect>
+          <a href="javascript:;" layadmin-event="fullscreen">
+            <i class="layui-icon layui-icon-screen-full"></i>
+          </a>
+        </li>
+        <li class="layui-nav-item" lay-unselect>
+          <a href="javascript:;">
+            <cite>tester</cite>
+          </a>
+          <dl class="layui-nav-child">
+            <dd><a lay-href="set/user/info.html">基本资料</a></dd>
+            <dd><a lay-href="set/user/password.html">修改密码</a></dd>
+            <hr>
+            <dd layadmin-event="logout" style="text-align: center;"><a href="{{ url_for('auth.logout') }}">退出</a></dd>
+          </dl>
+        </li>
+
+        <li class="layui-nav-item layui-hide-xs" lay-unselect>
+          <a href="javascript:;" layadmin-event="about"><i class="layui-icon layui-icon-more-vertical"></i></a>
+        </li>
+        <li class="layui-nav-item layui-show-xs-inline-block layui-hide-sm" lay-unselect>
+          <a href="javascript:;" layadmin-event="more"><i class="layui-icon layui-icon-more-vertical"></i></a>
+        </li>
+      </ul>
+
+      <li class="layui-nav-item" lay-header-event="menuRight" lay-unselect>
+        <a href="javascript:;" style="background-color: unset;padding-left: 0;">
+          <i class="layui-icon layui-icon-more-vertical"></i>
+        </a>
+      </li>
+
+    </div>
+    <!-- <div class="layui-header">
+      <div class="layui-logo layui-hide-xs layui-bg-black">GDCAM system</div>
+      头部区域（可配合layui 已有的水平导航）
+      <ul class="layui-nav layui-layout-left">
+        移动端显示
+        <li class="layui-nav-item layui-show-xs-inline-block layui-hide-sm" lay-header-event="menuLeft">
           <i class="layui-icon layui-icon-spread-left"></i>
         </li>
         <li class="layui-nav-item"><span id="layuiv" style="margin-left: 10px; font-size: 10px"></span></li>
@@ -110,11 +163,11 @@
          </a>
         </li>
       </ul> -->
-    </div>
+    <!-- </div> --> 
     <div class="layui-side layui-bg-black">
       <div class="layui-side-scroll">
         <!-- 左侧导航区域 -->
-        <ul class="layui-nav layui-nav-tree" lay-shrink="all" lay-unselect lay-filter="nav-side" id="ws-nav-side">
+        <ul class="layui-nav layui-nav-tree" lay-shrink="test" lay-unselect lay-filter="nav-side" id="ws-nav-side">
           <li class="layui-nav-item">
             <a class="" href="javascript:;">权限管理</a>
             <dl class="layui-nav-child">
@@ -132,7 +185,7 @@
           </li>
           <li class="layui-nav-item"><a data-path="view/table-records" href="javascript:;">患者记录列表</a></li>
           <li class="layui-nav-item"><a data-path="view/prediction" href="javascript:;">死亡风险预测</a></li>
-          <li class="layui-nav-item">
+          <!-- <li class="layui-nav-item">
             <a class="" href="javascript:;">基本元素</a>
             <dl class="layui-nav-child">
               <dd><a data-path="view/button" href="javascript:;">按钮</a></dd>
@@ -178,7 +231,7 @@
               <dd><a data-path="view/xm-select" href="javascript:;">xm-select</a></dd>
             </dl>
            
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
@@ -280,7 +333,7 @@
         //   $('[lay-filter="toggle-theme"]').prop('checked',true)
         // }
 
-        renderView('#body-container',location.hash.slice(1)||'view/button');
+        renderView('#body-container',location.hash.slice(1));
 
         util.event('lay-header-event',{
           menuLeft: function() {
