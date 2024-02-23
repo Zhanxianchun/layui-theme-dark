@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
-  <title>ICU败血症患者死亡风险预测辅助系统</title>
+  <title>ICU脓毒症患者死亡风险预测辅助系统</title>
   <script>
     var VERSION='2.8.6';
   </script>
@@ -78,7 +78,7 @@
 <body>
   <div class="layui-layout layui-layout-admin">
     <div class="layui-header">
-      <div class="layui-logo layui-hide-xs layui-bg-black">GDCAM system</div>
+      <div class="layui-logo layui-hide-xs layui-bg-black">原型系统</div>
       <!-- 头部区域（可配合layui 已有的水平导航） -->
       <ul class="layui-nav layui-layout-left">
         <li class="layui-nav-item layadmin-flexible" lay-unselect>
@@ -98,6 +98,9 @@
         </li>
       </ul>
       <ul class="layui-nav layui-layout-right" lay-filter="layui-layout-right">
+        <li class="layui-nav-item" >
+          <i id="change-theme" class="layui-icon layui-icon-theme" style="font-size: 20px"></i>
+        </li> 
         <li class="layui-nav-item layui-hide-xs" lay-unselect>
           <a href="javascript:;" layadmin-event="fullscreen">
             <i class="layui-icon layui-icon-screen-full"></i>
@@ -105,7 +108,7 @@
         </li>
         <li class="layui-nav-item" lay-unselect>
           <a href="javascript:;">
-            <cite>tester</cite>
+            <cite>管理员</cite>
           </a>
           <dl class="layui-nav-child">
             <dd><a lay-href="set/user/info.html">基本资料</a></dd>
@@ -269,13 +272,13 @@
         var drawer=layui.drawer;
         var colorMode = layui.colorMode;
 
-        var APPERANCE_KEY='layui-theme-demo-prefer-dark'
+        var APPERANCE_KEY='layui-theme-demo-prefer-light'
 
         // 为方便定制主题，这里用改变 href 属性的方式切换主题
         var theme = colorMode.init({
           selector: '#layui_theme_css',
           attribute: 'href',
-          initialValue: 'dark',
+          initialValue: 'light',
           modes: {
             light: '',
             dark: './dist/layui-theme-dark.css'
