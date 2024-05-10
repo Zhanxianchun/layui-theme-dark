@@ -7,36 +7,36 @@
   }
   ,"data": [{
     "id": "10001"
-    ,"username": "杜甫123"
+    ,"username": "admin"
     ,"password": "123456"
-    ,"nick_name": "dufu"
+    ,"nick_name": "管理员"
     ,"salt": "浙江杭州"
     ,"is_deleted": 0
     ,"gmt_create": "2023-10-14"
     ,"gmt_modified": "2023-10-14"
   }, {
     "id": "10003"
-    ,"username": "杜甫123"
+    ,"username": "zhxich"
     ,"password": "123456"
-    ,"nick_name": "dufu"
+    ,"nick_name": "贤子"
     ,"salt": "浙江杭州"
     ,"is_deleted": 0
     ,"gmt_create": "2023-10-14"
     ,"gmt_modified": "2023-10-14"
   }, {
     "id": "10004"
-    ,"username": "杜甫123"
-    ,"password": "123456"
-    ,"nick_name": "dufu"
+    ,"username": "spring"
+    ,"password": "4568752"
+    ,"nick_name": "春天"
     ,"salt": "浙江杭州"
     ,"is_deleted": 0
     ,"gmt_create": "2023-10-14"
     ,"gmt_modified": "2023-10-14"
   }, {
     "id": "10005"
-    ,"username": "杜甫123"
-    ,"password": "123456"
-    ,"nick_name": "dufu"
+    ,"username": "summer"
+    ,"password": "11154262"
+    ,"nick_name": "夏天"
     ,"salt": "浙江杭州"
     ,"is_deleted": 0
     ,"gmt_create": "2023-10-14"
